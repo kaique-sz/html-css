@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+
+        body {
+
+            background-color: gray;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+
+        header {
+
+            background-color: white;
+            margin: 5px;
+            padding: 10px;
+
+        }
+
+        h1 {
+
+            box-shadow:inset 2px 2px 5px rgba(0, 0, 0, 0.641);
+        }
+
+        nav {
+
+            background-color: rgb(84, 84, 84);
+            padding: 5px;
+            margin: 3px;
+            box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.558);
+        }
+
+        nav > a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        main {
+
+            background-color: white;
+            padding: 5px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.338);
+        }
+
+        section {
+
+            background-color: lightgray;
+            margin: 10px;
+        }
+
+        section > h2 {
+
+            color: red;
+           padding: 5px;
+            
+        }
+
+        section > p {
+
+            font-size: 20px;
+            padding: 5px;
+    
+        }
+
+        p > a {
+         
+            color: white;
+            text-decoration: none;
+            margin-right: 10px;
+            
+        }
+
+        p > a:hover {
+
+            text-decoration: underline;
+            color: black;
+        }
+
+        article {
+
+            background-color: gainsboro;
+            padding: 5px;
+        }
+
+        article > aside {
+
+            background-color: darkgray;
+        }
+
+        footer {
+
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin: 0px;
+            
+            
+            
+            
+
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <section>
+            <h2>Esportes</h2>
+
+             <p><a href="#">Futebol</a>
+             <a href="#">Vôlei</a>
+             <a href="#">Basquete</a></p>
+        
+            </section>
+
+        <section>
+            <article>
+                <h2>Notícias do Brasil</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo non dolores ducimus reprehenderit architecto impedit esse veniam eos ullam commodi enim neque provident, dolorem ab consequuntur illo? Nam, ad illo.</p>
+                <aside>Escrito por Alexandre de Moraes</aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Kaique</p>
+
+    </footer>
+</body>
+</html>
