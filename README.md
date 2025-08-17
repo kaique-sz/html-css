@@ -3,4 +3,4 @@ Curso de HTML e CSS3 do CursoemVídeo
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios
 
-<a href="https://kaique-sz.github.io/html-css/exercicios/exec015"> Executar o exercicio 015 </a>
+<a href="https://kaique-sz.github.io/html-css/desafios-html/d9"> Executar o desafio 9 </a>
