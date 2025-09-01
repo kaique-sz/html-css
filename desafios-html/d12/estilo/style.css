@@ -2,11 +2,24 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+
+    --fonte1:Verdana, Geneva, Tahoma, sans-serif;
+
+    --fonte2:"Fredericka the Great","serif";
+
+    --fonte3:"Sriracha", "cursive";
+}
+
+
 
 * {
 
     margin: 0px;
     padding: 0px;
+
 }
 
 header {
@@ -22,8 +35,8 @@ header {
 
 header > h1 {
 
-    font-size: 3em;
-    font-family:"Fredericka the Great","serif";
+    font-size: 5vw;
+    font-family:var(--fonte2);
     font-style: normal;
     font-weight: 400;
 }
@@ -34,6 +47,8 @@ header p > a {
    text-decoration: none;
    font-family:"Fredericka the Great","serif";
    font-weight: bolder;
+
+   font-size: 1em;
    
 }
 
@@ -44,6 +59,9 @@ a:hover {
 }
 
 section {
+
+    font-family: var(--fonte3);
+    font-size: 3vw;
 
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -68,7 +86,9 @@ section.imagem {
 section.imagem > p {
 
     background-color: rgba(0, 0, 0, 0.3);
-    width: 400px;
+    display: inline-block;
+
+    padding: 5px;
 }
 
 
