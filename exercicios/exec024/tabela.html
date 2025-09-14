@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo tabela</title>
+
+    <style> 
+
+        table {
+
+        border-collapse: collapse;
+
+        }
+
+        caption {
+
+            font-weight: bold;
+
+            font-size: 1.8em;
+
+            padding: 10px;
+        }
+
+        td, th {
+
+            border: 1px solid black;
+
+            padding: 10px;
+
+        }
+    </style>
+</head>
+<body>
+
+  <table>
+
+    <caption>Filmes preferidos</caption>
+
+      <thead>
+
+        <th>Grupo</th>
+        <th>Nomes</th>
+        <th colspan="3">Filmes</th>
+
+      </thead>
+
+      <tbody>
+
+        <tr>
+            <th rowspan="3">Mulheres</th>
+            <td>Ana Beatriz</td>
+            <td>Alien</td>
+            <td>Interestelar</td>
+            <td>Rambo</td>
+        </tr>
+
+        <tr>
+            <td>Maria Nayara</td>
+            <td>Taxi driver</td>
+            <td>Lagoa azul</td>
+            <td>Annabelle</td>
+        </tr>
+
+        <tr>
+
+            <td>Karla Silva</td>
+            <td>Vingadores</td>
+            <td>Joker</td>
+            <td>Superman</td>
+        </tr>
+
+        <tr>
+
+            <th rowspan="3">Homens</th>
+            <td>Wesley Sousa</td>
+            <td>Hulk</td>
+            <td>Batman</td>
+            <td>Deadpool</td>
+        </tr>
+
+        <tr>
+
+            <td>Pedro Pascal</td>
+            <td>Iron man</td>
+            <td>Harry Potter</td>
+            <td>Quarteto fantastico</td>
+        </tr>
+
+        <tr>
+
+            <td>Marcelo Gonçalves</td>
+            <td>Berzerk</td>
+            <td>Naruto</td>
+            <td>Arlequina</td>
+        </tr>
+      </tbody>
+  </table>
+</body>
+</html>
