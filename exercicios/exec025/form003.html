@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <h1>Testando Formulário</h1>
+    <form action="formulario.php" method="post" autocomplete="on">
+
+        <p>
+            <label for="inome">Nome de Usuário:</label>
+            <input type="text" name="nome" id="inome" required maxlength="20" placeholder="digite seu nome" autocomplete="name">
+        </p>
+
+        <p>
+            <label for="imedia">Média</label>
+            <input type="number" name="media" id="imedia" required min="0" max="10" step="0.1" >
+        </p>
+
+        <p>
+            <label for="imes">Periodo</label>
+            <input type="month" name="mes" id="imes" required value="2025-09">
+
+        </p>
+
+        <p>
+            <label for="idia">Dia da Prova</label>
+            <input type="date" name="dia" id="idia" required value="2025-09-30">
+        </p>
+
+        <p>
+            <label for="itime">Hora da Prova</label>
+            <input type="time" name="time" id="itime" required>
+        
+
+        </p>
+
+        <p>
+            <input type="submit">
+            <input type="reset" value="Limpar">
+        </p>
+
+
+    </form>
+</body>
+</html>
